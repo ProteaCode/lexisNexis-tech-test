@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="LexisNexis.Api/LexisNexis.Api.csproj" Id="6e29cd66-6bf8-4050-aed0-79263312c121" />
+    <Project Path="LexisNexis.Application/LexisNexis.Application.csproj" Id="dcf99f5c-bf18-48ed-9fff-282b0c5a69de" />
+    <Project Path="LexisNexis.Domain/LexisNexis.Domain.csproj" Id="4a04c5f8-39a2-4267-a85f-0e33fd52ca0d" />
+    <Project Path="LexisNexis.Infrastructure/LexisNexis.Infrastructure.csproj" Id="abc40153-2ec1-485f-95b5-8b94abd8b1ff" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="../tests/LexisNexis.Tests/LexisNexis.Tests.csproj" Id="3e503edf-2500-4f7a-be26-8b3742145e72" />
+  </Folder>
+</Solution>
