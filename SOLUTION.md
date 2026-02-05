@@ -64,3 +64,8 @@ Standard CRUD endpoints for both Entites.
 
 Added custom middleware for error handling/logging, if an exception is through during the request.
 
+### Tests
+
+NUnit and Moq were used for unit testing. 
+
+
