@@ -24,7 +24,7 @@ public class GetCategoryHierarchyTreeHandler
     {
         return categories
             .Where(c => c.ParentCategoryId == parentId)
-            .Select(c => new CategoryTreeDto (c.Id, c.Name, c.Description, parentId, (BuildTree(categories, c.Id))))
+            .Select(c => new CategoryTreeDto (c.Id, c.Name, c.Description, c.ParentCategoryId, (BuildTree(categories, c.ParentCategoryId))))
             .ToList();
     }
 }
